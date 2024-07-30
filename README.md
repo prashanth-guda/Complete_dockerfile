@@ -34,7 +34,7 @@ preparing for java environment
 
 # Dockerfile
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:11-jre-slim
+FROM openjdk:17-jre-slim
 
 # Set the working directory in the container
 WORKDIR /app
